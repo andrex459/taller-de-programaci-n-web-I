@@ -1,0 +1,113 @@
+
+body {
+background-color: blueviolet;
+background-image: url("/images/bg-desktop_1.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+}
+.panel{
+  max-width: 90%;
+  height: 400px;
+  position: absolute;
+  top: 25%;
+  left: 5%;
+ 
+ 
+}
+.logo img{
+  width: 50px;
+	height: 40px;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+.logo h2{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size:30px;
+ color: aliceblue;
+}
+.logo{
+  
+  width:300px;
+  position: absolute;
+  top:10px;
+  
+}
+.content{
+  
+  position: absolute;
+  width: 35%;
+  height: 25vh;
+  left: 50%;
+  color: aliceblue;
+  top:25vh;
+  
+}
+.content h1{
+  font-family: 'Poppins', sans-serif; 
+  font-size: 40px;
+}
+.content p{
+  font-family: 'Poppins', sans-serif; 
+  font-size: 14px;
+}
+.button{
+  background-color:aliceblue;
+			border: none;
+			color: blueviolet;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+      font-family: 'Poppins', sans-serif; 
+			font-size: 16px;
+			cursor: pointer;
+			border-radius: 50px;
+      width: 150px;
+      transition: box-shadow 0.5s ease-in-out;
+      transition: color 1.0s ease-in-out;
+}
+.button:hover{
+  box-shadow: 0px 0px 10px #888888;
+  color:darkmagenta;
+}
+.redes img{
+  width: 10%;
+  top: 90vh;
+  float: right;
+  right: 10%;
+  position: absolute;
+  
+}
+
+
+
+@media (max-width: 767px) {
+  .content {
+      width: 90%;
+      top:100vh;
+      left: 30px;
+  }
+.button{
+  display: block;
+  margin: 0 auto;
+}
+.redes img{
+  width: 20%;
+  top: 160vh;
+  right: 150px;
+  position: relative;
+  padding: 30px;
+  
+}  
+}
+
+
+
+
+
+  
+
